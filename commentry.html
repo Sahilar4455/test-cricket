@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="robots" content="noindex,nofollow" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cricket News</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" >
+	 <link href="fonts/css/fontawesome.min.css" rel="stylesheet" >
+	<link href="fonts/css/brands.min.css" rel="stylesheet" />
+    <link href="fonts/css/solid.min.css" rel="stylesheet" />
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/live.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   <link href="css/flag-icons.css" rel="stylesheet">
+	
+
+</head>
+<body class="bg-light">
+
+<section id="header">
+   <nav class="navbar navbar-expand-lg navbar-light w-100">
+      <div class="container-xl">
+          <a class="d-flex p-2" href="index.html">
+		     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: rgb(255 255 255);transform: ;msFilter: ;"><path d="m3.67 16.26.54.53-.62.61a9 9 0 0 0 .84 1.11L18.51 4.42a10.93 10.93 0 0 0-1.1-.83l-.62.61-.53-.53.48-.48A10 10 0 0 0 3.2 16.74zM14.86 5.07l.53.53L14 7l-.53-.53zm-2.79 2.8.52.53-1.39 1.4-.53-.53zm-2.8 2.8.53.53-1.4 1.39-.53-.53zm-2.8 2.79L7 14l-1.4 1.4-.53-.53zm.12 6.95.62-.61.53.53-.48.48A10 10 0 0 0 20.8 7.26l-.47.48-.54-.53.62-.61a9 9 0 0 0-.84-1.11L5.49 19.58a10.93 10.93 0 0 0 1.1.83zM18.4 8.61l.53.53-1.4 1.4L17 10zm-2.8 2.8.53.53-1.4 1.39-.53-.53zm-2.8 2.79.53.53-1.39 1.4-.54-.53zM10 17l.53.53-1.4 1.4-.53-.53z"></path></svg>
+			 <b class="fs-4 col_orange ps-1">Cricket News</b>
+	     </a>
+         <button class="navbar-toggler offcanvas-nav-btn  ms-auto me-3" type="button">
+            <img src="image/icons-svg/list.svg" width="40" height="40" alt="Open TemplateOnweb website menu"/>
+         </button>
+         <div class="offcanvas offcanvas-start offcanvas-nav" style="width: 20rem">
+            <div class="offcanvas-header shadow">
+			    <a class="d-flex p-2" href="index.html">
+					 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: rgb(255 255 255);transform: ;msFilter: ;"><path d="m3.67 16.26.54.53-.62.61a9 9 0 0 0 .84 1.11L18.51 4.42a10.93 10.93 0 0 0-1.1-.83l-.62.61-.53-.53.48-.48A10 10 0 0 0 3.2 16.74zM14.86 5.07l.53.53L14 7l-.53-.53zm-2.79 2.8.52.53-1.39 1.4-.53-.53zm-2.8 2.8.53.53-1.4 1.39-.53-.53zm-2.8 2.79L7 14l-1.4 1.4-.53-.53zm.12 6.95.62-.61.53.53-.48.48A10 10 0 0 0 20.8 7.26l-.47.48-.54-.53.62-.61a9 9 0 0 0-.84-1.11L5.49 19.58a10.93 10.93 0 0 0 1.1.83zM18.4 8.61l.53.53-1.4 1.4L17 10zm-2.8 2.8.53.53-1.4 1.39-.53-.53zm-2.8 2.79.53.53-1.39 1.4-.54-.53zM10 17l.53.53-1.4 1.4-.53-.53z"></path></svg>
+					 <b class="fs-4 col_orange ps-1">Cricket News</b>
+				 </a>
+               <img src="image/icons-svg/x.svg" width="40" height="40" class="ms-auto" data-bs-dismiss="offcanvas" aria-label="Close" alt="Close TemplateOnweb website menu"/>
+			   
+            </div>
+            <div class="offcanvas-body pt-0 align-items-center">
+               <ul class="navbar-nav align-items-lg-center ms-auto">
+			      <li class="nav-item"> 
+				      <a class="nav-link dropdown-toggle" href="index.html" title="Visit home page">
+					  Home
+					  </a>
+				  </li>
+				  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Click to see Html website templates category">
+						   Live Scores <img src="image/icons-svg/chevron-down.svg" width="15" height="15" alt="Submenu open/close icon">
+				    </a>
+					
+                     <div class="dropdown-menu dropdown-menu-xxl tow_category">
+                        <div class="columns">
+								<ul>
+								
+								  <li class="column-item d-flex justify-content-start">
+									<a href="live.html" class="ps-2 my-auto">Live Score </a>
+                                  </li>
+								  <li class="column-item d-flex justify-content-start">
+									<a href="commentry.html" class="ps-2 my-auto">Commentary</a>
+                                  </li>
+								  <li class="column-item d-flex justify-content-start">
+										<a href="scorecard.html" class="ps-2 my-auto">Scorecard</a>
+                                  </li>
+								  
+								  <li class="column-item d-flex justify-content-start">
+										<a href="scorecard.html" class="ps-2 my-auto">Score Board</a>
+                                  </li>
+								</ul>
+                     </div>
+                  </div></li>
+				  
+                  <li class="nav-item dropdown drop_border">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            News<img src="image/icons-svg/chevron-down.svg" width="15" height="15" alt="Submenu open/close icon">
+          </a>
+          <ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="news.html"> News</a></li>
+			<li><a class="dropdown-item border-0" href="news_detail.html"> News Detail</a></li>
+          </ul>
+        </li>
+		
+		           <li class="nav-item dropdown drop_border">
+                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Click to see Blogs category">
+					   State League<img src="image/icons-svg/chevron-down.svg" width="15" height="15" alt="Submenu open/close icon"></a>
+                     <ul class="dropdown-menu shadow drop_1 shadow">
+                        <li><a class="dropdown-item" href="#">League</a></li>
+                        
+                        <li class="dropdown-submenu dropend">
+                           <a class="dropdown-item dropdown-toggle border-0" href="javascript:void(0);">India <img src="image/icons-svg/chevron-right.svg" width="15" height="15"></a>
+                           <ul class="dropdown-menu">
+                              <li>
+                                 <a class="dropdown-item" href="#">IPL</a>
+                              </li>
+                              <li>
+                                 <a class="dropdown-item border-0" href="#">WPL</a>
+                              </li>
+                           </ul>
+                        </li>
+						
+						<li class="dropdown-submenu dropend">
+                           <a class="dropdown-item dropdown-toggle border-0" href="javascript:void(0);">Australia <img src="image/icons-svg/chevron-right.svg" width="15" height="15"></a>
+                           <ul class="dropdown-menu">
+                              <li>
+                                 <a class="dropdown-item" href="#">BBL</a>
+                              </li>
+                              <li>
+                                 <a class="dropdown-item border-0" href="#">WBBL</a>
+                              </li>
+                           </ul>
+                        </li>
+						<li class="dropdown-submenu dropend">
+                           <a class="dropdown-item dropdown-toggle border-0" href="javascript:void(0);">Pakistan <img src="image/icons-svg/chevron-right.svg" width="15" height="15"></a>
+                           <ul class="dropdown-menu">
+                              <li>
+                                 <a class="dropdown-item border-0" href="#">PSL</a>
+                              </li>
+                           </ul>
+                        </li>
+						<li class="dropdown-submenu dropend">
+                           <a class="dropdown-item dropdown-toggle border-0" href="javascript:void(0);">England <img src="image/icons-svg/chevron-right.svg" width="15" height="15"></a>
+                           <ul class="dropdown-menu">
+                              <li>
+                                 <a class="dropdown-item border-0" href="#">EPL</a>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+		
+		         <li class="nav-item"> 
+				      <a class="nav-link dropdown-toggle" href="profile.html" title="Visit home page">
+					  Profile
+					  </a>
+				  </li>
+				  
+				  <li class="nav-item"> 
+				      <a class="nav-link dropdown-toggle" href="contact.html" title="Visit home page">
+					  Contact Us
+					  </a>
+				  </li>
+				  
+				  
+               </ul>
+			   <ul class="navbar-nav align-items-lg-center ms-auto">
+				    <li class="nav-item dropdown">
+          <a class="dropdown-toggle nav_hide nav-link fs-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa fa-search"></i>
+          </a>
+		<ul class="dropdown-menu drop_search p-3 shadow" aria-labelledby="navbarDropdown" style="">
+		<form class="navbar-form" role="search">
+		<div class="input-group">
+			<input type="text" class="form-control font_14" placeholder="Search Keyword">
+			<span class="input-group-btn">
+				<button class="btn btn-primary bg_blue border-0 rounded-0 p-2 px-3" type="button">
+					<i class="fa fa-search"></i> </button>
+			</span>
+		</div>
+		</form>
+		</ul>
+        </li>
+                 </ul>
+            </div>
+         </div>    
+		 
+		 
+         </div>
+      </div>
+   </nav>
+</section>
+
+<section id="center" class="pt-3 pb-3 center_live">
+ <div class="container-xl">
+   
+   <div class="row schedule2">
+    <div class="col-md-9">
+	  <div class="live">
+	    <div class="live_1">
+	     <b class="font_14">England vs Sri Lanka, 2nd Test at London, ENG v SL, Aug 29 2024 - Live Cricket Score</b>
+	    </div>
+		 <div class="live_2 border rounded_10 bg-white mt-2">
+           <div class="live_2_inner row px-3 pt-2 pb-2">
+		     <div class="col-md-8">
+			  <div class="live_2_inner_left">
+			    <b class="text-danger font_14">LIVE</b>
+				<span class="d-block font_14">2nd Test, Lord's, August 29 - September 02, 2024,  <a href="#">Sri Lanka tour of England</a></span>
+			  </div>
+			 </div>
+			 <div class="col-md-4">
+			  <div class="live_2_inner_right text-end pt-2">
+			    <ul class="mb-0 font_11">
+				  <li class="me-2 d-inline-block"><a href="#"><i class="fa fa-chevron-left me-1 fs-6 align-middle"></i> Prev</a></li>
+				  <li class="d-inline-block"><a href="#"> Next <i class="fa fa-chevron-right ms-1 fs-6 align-middle"></i></a></li>
+				  <li class="fs-5 text-muted mx-3 d-inline-block text-muted">  | </li>
+				  <li class="fs-5 me-3 d-inline-block"><a href="#"><i class="fa fa-share-alt"></i></a></li>
+				  <li class="nav-item dropdown drop_border d-inline-block">
+          <a class="dropdown-toggle p-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa fa-ellipsis-v fs-5"></i>
+          </a>
+          <ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#"> Previous Match</a></li>
+			<li><a class="dropdown-item border-0" href="#"> Next Match</a></li>
+          </ul>
+        </li>
+				</ul>
+			  </div>
+			 </div>
+		   </div>
+		   <hr class="mt-2 mb-0">
+		   <span class="px-3 d-block pt-3 mb-2"><a class="fw-bold fs-6" href="#"><span class="fi fi-bd me-1" style="width:18px; height:14px;"></span> BAN</a> <span class="float-end font_14">(34 ov) <b class="fs-6">427 & 159/4</b></span></span>
+		   <span class="px-3 d-block"><a class="fw-bold fs-6" href="#"><span class="fi fi-pk me-1" style="width:18px; height:14px;"></span> PAK</a> <span class="float-end font_14"> <b class="fs-6">234</b></span></span>
+		   <span class="font_12 d-block mt-2 px-3">Day 3 - Session 1: England lead by 390 runs.</span>
+		   <span class="d-block mt-2 pt-2 pb-2 px-3 font_12 bg-light">Current RR: 4.67
+ • Min. Ov. Rem: 63
+ • Last 10 ov (RR): 55/1 (5.50)</span>
+        <ul class="mb-0 bg-white mx-3 mt-2 score_tab d-block">
+		 <li class="d-inline-block"><a class="d-block" href="live.html">Live</a></li>
+		 <li class="mx-2 d-inline-block"><a class="d-block" href="scorecard.html">Scorecard</a></li>
+		 <li class="d-inline-block"><a class="d-block active" href="commentry.html">Commentary</a></li>
+		</ul>
+	    </div>
+				
+		<div class="commentary rounded_10 bg-white mt-3 border pb-3">
+		  <ul class="mb-0 px-3 pt-3 pb-3">
+		    <li class="d-inline-block me-2">
+			<select class="form-select rounded-pill  font_12" aria-label="Default select example">
+				<option selected="">BAN 2nd Innings</option>
+				<option value="1">PAK 1st Innings</option>
+				<option value="2">PAK 2nd Innings</option>
+				<option value="3">BAN 1st Innings</option>
+		    </select>
+		    </li>
+		    <li class="d-inline-block">
+			<select class="form-select  rounded-pill  font_12" aria-label="Default select example">
+				<option selected="">Full Commentary</option>
+				<option value="1">Wickets</option>
+				<option value="2">Boundaries</option>
+				<option value="3">Highlights</option>
+		    </select>
+		    </li>
+		  </ul>
+		  <div class="commentary_inner row row-cols-2 bg_light  mx-0">
+		    <div class="col border_thick pt-2 pb-2">
+			  <b class="font_14">END OF OVER 56 <span class="fw-normal font_12">6 runs</span></b>
+			</div>
+			<div class="col pt-2 pb-2">
+			  <b class="font_14">BAN: 185/4 <span class="fw-normal font_12">CRR: 3.30 </span></b>
+			</div>
+		  </div>
+		  <div class="commentary_inner row row-cols-2 bg-light  mx-0">
+		    <div class="col pt-2 pb-2 border-end">
+			  <span class="font_12 d-block">Shakib Al Hasan <span class="float-end">21 (43b 1x4 1x6)</span></span>
+			   <span class="font_12 d-block mt-1">Mushfiqur Rahim <span class="float-end">22 (51b 1x4)</span></span>
+			</div>
+			<div class="col pt-2 pb-2">
+			  <span class="font_12 d-block">Abrar Ahmed <span class="float-end">14-3-40-1</span></span>
+			   <span class="font_12 d-block mt-1">Mohammad Ali <span class="float-end">17-3-37-0</span></span>
+			</div>
+		  </div>
+		   <div class="commentary_inner1 px-3">
+		     <p class="mt-3">That's all from us today. I hope you all enjoyed the game of cricket with us. It's been a pleasure having you guys over the last few days. Signing off on behalf of Shakeel, the whole crew, and myself. Take care of yourselves.</p>
+			 <p><b>Najmul Hossain Shanto:</b> "(Series win) All right, it means a lot. We can't express with words really happy. I think before we came here we're looking to win here, and the way everyone did their job, really happy. (Bowling unit) Very impressive. I think the most important thing is their work ethic. I think the way they did their work in the recent past time, that's why they get the result. And then everyone was honest with themselves, and they wanted to win. So that is important for our team, and then I hope they will continue. (Opening batters) Yeah, Joy missed out because he has some niggles, but the way Shadman batted, especially the first 93 runs innings, it was excellent. And this innings, the way Zakir approached first six, seven overs, I think the momentum came to us, and then that's what we want from the both of them. (Middle order) Very important. I think the next series is very important, and this series gives us a lot of confidence. And as you mentioned Mushi bhai, Shakib bhai, Litton, and Mominul, they're all experienced playing a lot of cricket, and they show their experience, and I hope they will do better than this in the India series. (Mehidy Hasan Miraz) Very important. I think the way he bowled in the first innings on this kind of condition, taking five wickets. It's it's impressive. And the way, as I mentioned before, the way he worked his last couple of days practicing talking to the coaches was really impressive. And I hope against India they will do the same as he did. (Team performance) Yeah, very happy. I think everyone chipped in in this series; it's totally a team game. Especially I mentioned those who are not getting a chance to play those four guys. Doing a lot of hard work in the field is also very important. We always talk about those who score runs or take wickets. But the way those four guys are not playing is helping the team. It's very, very impressive. That's how we will get the result, and I hope this culture will go going forward. (Post match celebration) It depends on the manager, but we have to travel as well, but I think we have to celebrate this moment."</p>
+			 <p><b>Player of the Match Litton Das:</b> "Just believe in myself. Pakistan bowled really well in that half. Me and Miraz discussed that we should bat long and keep their momentum out. After that, Miraz hit few boundaries, and the momentum shifted. After lunch, it got easier. (With Hasan Mahmud) When Hasan came to bat, I did not have any scoring opportunity at that time. All the fielders were set out. I took my time, and I had to play the over, not taking runs or anything. Because there were lots of singles open for me. That was the key for me, and credit goes to Hasan; he batted really well. (Wicket keeping) Yeah, definitely. I like keeping in a Test match because this is my role. I did my work behind the wicket, and my team also did well. (Historic win) When we came here, back at home, the situation was not good. We arrived here earlier and practiced early. This is all about team effort. The way every player did in this weather, it is very difficult to play five-day cricket. And credit goes to all my teammates and the coaching staff."</p>
+			 <p><b>13:30:</b> Bangladesh closes out the series 2-0 with a six-wicket victory in the match. For the Bangladeshi cricket team, this is a historic Test series victory. In all three departments, they have definitely outperformed Pakistan. Bangladesh's performance in the first innings of the second test has been outstanding, particularly their comeback after trailing 26/6. Pakistan, on the other hand, continues their dismal run of red ball cricket at home. Despite taking four wickets today, the Pakistani team was unable to reverse the momentum and regain control of the game. Bangladesh's two experienced players, Shakib Al Hasan and Mushfiqur Rahim, led their team to victory at the end.</p>
+			 <div class="table-responsive">
+		    <table class="table font_13 align-middle table-hover mb-0">
+  
+  <tbody>
+    <tr class="border-bottom">
+      <td>38.6</td>
+      <td><span class="d-inline-block bg-success text-white rounded-1 text-center me-1 ball">4</span></td>
+      <td>Hasan Mahmud to Salman, FOUR runs
+Overpitched delivery in the slot around off, moves forward and smashes it over the mid-on fielder, couple of bounces and onto the ropes</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+	 <tr class="border-bottom">
+      <td>38.5</td>
+      <td><span class="d-inline-block bg-light rounded-1 text-center me-1 ball">0</span></td>
+      <td>Hasan Mahmud to Salman, no run
+Back of a length ball on the stumps, turns it down to the onside</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+<tr class="border-bottom">
+      <td>38.4</td>
+      <td><span class="d-inline-block bg-light rounded-1 text-center me-1 ball">2</span></td>
+      <td>Hasan Mahmud to Salman, no run
+Tighter line and length on the stumps, defends back to the bowler</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+	 <tr class="border-bottom">
+      <td>38.3</td>
+      <td><span class="d-inline-block bg-success text-white rounded-1 text-center me-1 ball">4</span></td>
+      <td>Hasan Mahmud to Salman, FOUR runs
+Overpitched delivery in the slot around off, moves forward and smashes it over the mid-on fielder, couple of bounces and onto the ropes</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+	 <tr class="border-bottom">
+      <td>38.2</td>
+      <td><span class="d-inline-block bg-light rounded-1 text-center me-1 ball">0</span></td>
+      <td>Hasan Mahmud to Salman, no run
+Back of a length ball on the stumps, turns it down to the onside</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+<tr>
+      <td>38.1</td>
+      <td><span class="d-inline-block bg-light rounded-1 text-center me-1 ball">2</span></td>
+      <td>Hasan Mahmud to Salman, no run
+Tighter line and length on the stumps, defends back to the bowler</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+  </tbody>
+</table>
+		  </div>
+		     <p class="mt-3">Vishal S.: "Credits should also go Shanto, the captain, for marshalling his resources brilliantly." You and I both agree, Vishal. It surprises me that this is the first feedback made about Shanto's captaincy throughout the entire test series. His field setup, bowling change that produced breakthroughs, and resource management have all, in my opinion, been outstanding throughout the series.</p>
+		   </div>
+		   <div class="commentary_inner row row-cols-2 bg_light  mx-0">
+		    <div class="col border_thick pt-2 pb-2">
+			  <b class="font_14">END OF OVER 56 <span class="fw-normal font_12">6 runs</span></b>
+			</div>
+			<div class="col pt-2 pb-2">
+			  <b class="font_14">BAN: 185/4 <span class="fw-normal font_12">CRR: 3.30 </span></b>
+			</div>
+		  </div>
+		  <div class="commentary_inner row row-cols-2 bg-light  mx-0">
+		    <div class="col pt-2 pb-2 border-end">
+			  <span class="font_12 d-block">Shakib Al Hasan <span class="float-end">21 (43b 1x4 1x6)</span></span>
+			   <span class="font_12 d-block mt-1">Mushfiqur Rahim <span class="float-end">22 (51b 1x4)</span></span>
+			</div>
+			<div class="col pt-2 pb-2">
+			  <span class="font_12 d-block">Abrar Ahmed <span class="float-end">14-3-40-1</span></span>
+			   <span class="font_12 d-block mt-1">Mohammad Ali <span class="float-end">17-3-37-0</span></span>
+			</div>
+		  </div>
+		  <div class="commentary_inner1 px-3">
+		    
+			 <div class="table-responsive">
+		    <table class="table font_13 align-middle table-hover mb-0">
+  
+  <tbody>
+    <tr class="border-bottom">
+      <td>37.6</td>
+      <td><span class="d-inline-block bg-success text-white rounded-1 text-center me-1 ball">4</span></td>
+      <td>Hasan Mahmud to Salman, FOUR runs
+Overpitched delivery in the slot around off, moves forward and smashes it over the mid-on fielder, couple of bounces and onto the ropes</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+	 <tr class="border-bottom">
+      <td>37.5</td>
+      <td><span class="d-inline-block bg-light rounded-1 text-center me-1 ball">0</span></td>
+      <td>Hasan Mahmud to Salman, no run
+Back of a length ball on the stumps, turns it down to the onside</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+<tr class="border-bottom">
+      <td>37.4</td>
+      <td><span class="d-inline-block bg-light rounded-1 text-center me-1 ball">2</span></td>
+      <td>Hasan Mahmud to Salman, no run
+Tighter line and length on the stumps, defends back to the bowler</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+	 <tr class="border-bottom">
+      <td>37.3</td>
+      <td><span class="d-inline-block bg-success text-white rounded-1 text-center me-1 ball">4</span></td>
+      <td>Hasan Mahmud to Salman, FOUR runs
+Overpitched delivery in the slot around off, moves forward and smashes it over the mid-on fielder, couple of bounces and onto the ropes</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+	 <tr class="border-bottom">
+      <td>37.2</td>
+      <td><span class="d-inline-block bg-light rounded-1 text-center me-1 ball">0</span></td>
+      <td>Hasan Mahmud to Salman, no run
+Back of a length ball on the stumps, turns it down to the onside</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+<tr>
+      <td>37.1</td>
+      <td><span class="d-inline-block bg-light rounded-1 text-center me-1 ball">2</span></td>
+      <td>Hasan Mahmud to Salman, no run
+Tighter line and length on the stumps, defends back to the bowler</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+  </tbody>
+</table>
+		  </div>
+		     <p class="mt-3">Rama: "@ Sandeep: a bit too early to say that... they still have to cross the line... and they seem to be getting into a shell.."</p>
+		   </div>
+		   <div class="commentary_inner row row-cols-2 bg_light  mx-0">
+		    <div class="col border_thick pt-2 pb-2">
+			  <b class="font_14">END OF OVER 53 <span class="fw-normal font_12">Maiden</span></b>
+			</div>
+			<div class="col pt-2 pb-2">
+			  <b class="font_14">BAN: 173/4 <span class="fw-normal font_12">CRR: 3.30 </span></b>
+			</div>
+		  </div>
+		  <div class="commentary_inner row row-cols-2 bg-light  mx-0">
+		    <div class="col pt-2 pb-2 border-end">
+			  <span class="font_12 d-block">Shakib Al Hasan <span class="float-end">21 (43b 1x4 1x6)</span></span>
+			   <span class="font_12 d-block mt-1">Mushfiqur Rahim <span class="float-end">22 (51b 1x4)</span></span>
+			</div>
+			<div class="col pt-2 pb-2">
+			  <span class="font_12 d-block">Abrar Ahmed <span class="float-end">14-3-40-1</span></span>
+			   <span class="font_12 d-block mt-1">Mohammad Ali <span class="float-end">17-3-37-0</span></span>
+			</div>
+		  </div>
+		  <div class="commentary_inner1 px-3">
+		    
+			 <div class="table-responsive">
+		    <table class="table font_13 align-middle table-hover mb-0">
+  
+  <tbody>
+    <tr class="border-bottom">
+      <td>36.6</td>
+      <td><span class="d-inline-block bg-success text-white rounded-1 text-center me-1 ball">4</span></td>
+      <td>Hasan Mahmud to Salman, FOUR runs
+Overpitched delivery in the slot around off, moves forward and smashes it over the mid-on fielder, couple of bounces and onto the ropes</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+	 <tr class="border-bottom">
+      <td>36.5</td>
+      <td><span class="d-inline-block bg-light rounded-1 text-center me-1 ball">0</span></td>
+      <td>Hasan Mahmud to Salman, no run
+Back of a length ball on the stumps, turns it down to the onside</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+<tr class="border-bottom">
+      <td>36.4</td>
+      <td><span class="d-inline-block bg-light rounded-1 text-center me-1 ball">2</span></td>
+      <td>Hasan Mahmud to Salman, no run
+Tighter line and length on the stumps, defends back to the bowler</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+	 <tr class="border-bottom">
+      <td>36.3</td>
+      <td><span class="d-inline-block bg-success text-white rounded-1 text-center me-1 ball">4</span></td>
+      <td>Hasan Mahmud to Salman, FOUR runs
+Overpitched delivery in the slot around off, moves forward and smashes it over the mid-on fielder, couple of bounces and onto the ropes</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+	 <tr class="border-bottom">
+      <td>36.2</td>
+      <td><span class="d-inline-block bg-light rounded-1 text-center me-1 ball">0</span></td>
+      <td>Hasan Mahmud to Salman, no run
+Back of a length ball on the stumps, turns it down to the onside</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+<tr>
+      <td>36.1</td>
+      <td><span class="d-inline-block bg-light rounded-1 text-center me-1 ball">2</span></td>
+      <td>Hasan Mahmud to Salman, no run
+Tighter line and length on the stumps, defends back to the bowler</td>
+      <td><a href="#"><i class="fa fa-share-alt"></i></a></td>
+    </tr>
+  </tbody>
+</table>
+		  </div>
+		     <p class="mt-3">Ahmed: "it's only fitting that two veteran of BD cricket take them over the line in this historic series win"</p>
+			 <span class="d-block px-3 mt-3 text-center"><a class="button text-center" href="#">Load More</a></span>
+		   </div>
+		</div>
+	  </div>
+	</div>
+	<div class="col-md-3 ps-2">
+	 <div class="live_right">
+	  
+	 <div class="live_right_2 pt-3 pb-3 border rounded_10 bg-white live_right_1 ">
+	   <ul class="mb-0 d-flex justify-content-between px-3">
+	     <li class="fw-bold">Match Coverage</li>
+         <li><a class="col_blue font_12" href="#">All Match News <i class="fa fa-chevron-right ms-1"></i></a></li>
+	   </ul>
+	   <hr class="mt-2 mb-2">
+	   <ul class="mb-0">
+	    <li class="d-flex px-3">
+		 <span class="flex-column me-2">
+		 <b class="font_13 d-block"><a href="#">Hasan Mahmud and Nahid Rana put Bangladesh in sight of historic sweep</a></b>
+		 <span class="font_12 d-block mt-2">Chasing 185, Bangladesh need another 143 with all ten wickets intact</span>
+		 </span>
+		 <a href="#"><img width="70" class="rounded_10" alt="abc" src="image/9.jpg"></a>
+		</li>
+		<li><hr></li>
+	 <li class="d-flex px-3">
+		 <span class="flex-column me-2">
+		 <b class="font_13 d-block"><a href="#">Litton and Mehidy orchestrate a comeback for the ages</a></b>
+		 <span class="font_12 d-block mt-2">Chasing 185, Bangladesh need another 143 with all ten wickets intact</span>
+		 </span>
+		 <a href="#"><img width="70" class="rounded_10" alt="abc" src="image/10.jpg"></a>
+		</li>
+		<li><hr></li>
+	 <li class="d-flex px-3">
+		 <span class="flex-column me-2">
+		 <b class="font_13 d-block"><a href="#">A picture perfect morning for Khurram Shahzad</a></b>
+		 <span class="font_12 d-block mt-2">Chasing 185, Bangladesh need another 143 with all ten wickets intact</span>
+		 </span>
+		 <a href="#"><img width="70" class="rounded_10" alt="abc" src="image/11.jpg"></a>
+		</li>
+			<li><hr></li>
+	 <li class="d-flex px-3">
+		 <span class="flex-column me-2">
+		 <b class="font_13 d-block"><a href="#">Stats: Litton Das' ever growing list of Test match rescue acts</a></b>
+		 <span class="font_12 d-block mt-2">Chasing 185, Bangladesh need another 143 with all ten wickets intact</span>
+		 </span>
+		 <a href="#"><img width="70" class="rounded_10" alt="abc" src="image/12.jpg"></a>
+		</li>
+	   </ul>
+	 </div>
+	 <div class="live_right_3 pt-3 pb-3 border rounded_10 bg-white mt-4">
+	    <b class="fs-4 d-block text-center">Ask Cricnews</b>
+	   <hr class="mt-2 mb-2">
+	   <b class="font_14 px-3">Instant answers to T20 questions</b>
+	   <ul class="px-3 mt-2">
+	    <li class="d-flex"><span class="me-3 fs-5"><i class="fa fa-search"></i></span> <a href="#">What is the highest total chased in men's T20 World Cups?</a></li>
+		 <li class="d-flex mt-2"><span class="me-3 fs-5"><i class="fa fa-search"></i></span> <a href="#">Most sixes in an innings by a batter in men's T20 World Cups?</a></li>
+		  <li class="d-flex mt-2"><span class="me-3 fs-5"><i class="fa fa-search"></i></span> <a href="#">Who has taken the most Powerplay wickets in men's T20 World Cups?</a></li>
+	   </ul>
+	   <span class="d-block px-3"><a class="button d-block text-center" href="#">Ask a question</a></span>
+	 </div>
+	 <div class="watch pt-3 pb-3 border rounded_10 bg-white mt-4">
+	   <ul class="mb-0 d-flex justify-content-between px-3">
+	     <li class="fw-bold">Videos</li>
+         <li><a class="col_blue font_12" href="#">All Match Videos <i class="fa fa-chevron-right ms-1"></i></a></li>
+	   </ul>
+	   <hr class="mt-2 mb-2">
+	     <div class="schedule2_left1_left position-relative px-3">
+		     <div class="schedule2_left1_left1">
+			   <a href="#"><img src="image/3.jpg" alt="abc" class="img-fluid rounded_10"></a>
+			 </div>
+		      
+			 <div class="schedule2_left1_left3 position-absolute  p-2 bottom-0">
+			   <span><a class="d-inline-block bg_blue text-white rounded-circle fs-5 video text-center" href="#"><i class="fa fa-play"></i></a></span>
+			 </div>
+			 
+		   </div>
+		 <div class="schedule2_left1_left4 px-3">
+			   <span class="font_14 mt-2 d-block"><a href="#">Australia begin defence on Oct 5; Ind-Pak on Oct 6</a></span>
+			 </div>
+	 </div>
+	 <div class="live_right_4 pt-3 pb-3 border rounded_10 bg-white mt-4">
+	    <b class="font_14 d-block px-3">Bangladesh Innings</b>
+	   <hr class="mt-2 mb-0">
+		 <div class="table-responsive">
+		    <table class="table font_12 mb-0">
+  <thead class="border-0">
+    <tr class="bg-light">
+      <th class="text-muted">PLAYER</th>
+      <th class="text-muted"></th>
+      <th class="text-muted">R</th>
+      <th class="text-muted">B</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="border-bottom">
+      <td><a href="#"><b> Rizwan*</b> </a></td>
+      <td>bowled</td>
+      <td>44</td>
+      <td>38</td>
+    </tr>
+    <tr class="border-bottom">
+      <td><b>Salman Agha</b></td>
+      <td>caught</td>
+      <td>24</td>
+      <td>47</td>
+    </tr>
+<tr class="border-bottom">
+      <td><b>Nazmul</b> </td>
+      <td>not out</td>
+      <td>18</td>
+      <td>23</td>
+    </tr>
+	<tr class="border-bottom">
+      <td><b>Mominul</b> </td>
+      <td>not out</td>
+      <td>14</td>
+      <td>27</td>
+    </tr>
+	<tr class="border-bottom">
+      <td><b>Extras</b> </td>
+      <td>(b 1, lb 2)</td>
+    </tr>
+	<tr class="bg-light">
+      <td><b class="font_14">TOTAL</b> </td>
+	  <td><b>96 (2 wkts; 24.5 ovs)</b> </td>
+	  <td> </td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+		  </div>
+		  <ul class="mt-3 mb-0 paginate text-center font_13">
+		  <li class="d-inline-block"><a class="border d-block rounded-circle active" href="#">1</a></li>
+		  <li class="d-inline-block"><a class="border d-block rounded-circle" href="#">2</a></li>
+		 </ul>
+	 </div>
+	 <div class="live_right_4 pt-3 pb-3 border rounded_10 bg-white mt-4">
+	    <b class="font_14 d-block px-3">ICC World Test Championship</b>
+	   <hr class="mt-2 mb-0">
+		 <div class="table-responsive">
+		    <table class="table font_12 mb-0">
+  <thead class="border-0">
+    <tr class="bg-light">
+      <th class="text-muted border-end">TEAM</th>
+      <th class="text-muted">M</th>
+      <th class="text-muted">W</th>
+      <th class="text-muted">L</th>
+	  <th class="text-muted">D</th>
+	  <th class="text-muted">PT</th>
+	  <th class="text-muted">PCT</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="border-bottom">
+      <td class="border-end"><a href="#"><b>IND</b> </a></td>
+      <td>9</td>
+      <td>6</td>
+      <td>2</td>
+	  <td>1</td>
+	  <td>74</td>
+	  <td>68.52</td>
+    </tr>
+	<tr class="border-bottom">
+      <td class="border-end"><a href="#"><b>ENG</b> </a></td>
+      <td>8</td>
+      <td>7</td>
+      <td>2</td>
+	  <td>1</td>
+	  <td>84</td>
+	  <td>68.52</td>
+    </tr>
+    <tr class="border-bottom">
+      <td class="border-end"><b>AUS</b></td>
+       <td>7</td>
+      <td>4</td>
+      <td>2</td>
+	  <td>1</td>
+	  <td>54</td>
+	  <td>68.52</td>
+    </tr>
+<tr class="border-bottom">
+      <td class="border-end"><b>SA</b> </td>
+       <td>10</td>
+      <td>5</td>
+      <td>2</td>
+	  <td>1</td>
+	  <td>74</td>
+	  <td>68.52</td>
+    </tr>
+	<tr class="border-bottom">
+      <td class="border-end"><b>NZ</b> </td>
+       <td>9</td>
+      <td>4</td>
+      <td>2</td>
+	  <td>1</td>
+	  <td>74</td>
+	  <td>68.52</td>
+    </tr>
+	<tr class="border-bottom">
+     <td class="border-end"><b>BAN</b> </td>
+       <td>8</td>
+      <td>5</td>
+      <td>2</td>
+	  <td>1</td>
+	  <td>74</td>
+	  <td>68.52</td>
+    </tr>
+	<tr class="border-bottom">
+     <td class="border-end"><b>SL</b> </td>
+       <td>10</td>
+      <td>5</td>
+      <td>2</td>
+	  <td>1</td>
+	  <td>74</td>
+	  <td>68.52</td>
+    </tr>
+	<tr class="border-bottom">
+     <td class="border-end"><b>PAK</b> </td>
+       <td>11</td>
+      <td>7</td>
+      <td>2</td>
+	  <td>1</td>
+	  <td>74</td>
+	  <td>68.52</td>
+    </tr>
+	<tr class="border-bottom">
+     <td class="border-end"><b>WI</b> </td>
+       <td>5</td>
+      <td>2</td>
+      <td>2</td>
+	  <td>1</td>
+	  <td>74</td>
+	  <td>68.52</td>
+    </tr>
+	
+  </tbody>
+</table>
+		  </div>
+		  <b class="d-block text-center font_14 mt-2"><a class="col_blue" href="#">FULL TABLE</a></b>
+	 </div>
+	 </div>
+	</div>
+   </div>
+ </div>
+</section>
+
+
+<section id="footer" class="pt-5 pb-5 bg-black border-top">
+ <div class="container-xl">
+  	  <div class="row footer_1 row-cols-2 row-cols-sm-2 row-cols-md-4">
+	   <div class="col">
+	    <b class="text-white font_14 d-block mb-3">Key Series</b>
+        <ul class="mb-0">
+		 <li><a class="text-white-50 link" href="#">Afghanistan v New Zealand</a></li>
+		 <li class="mt-3"><a class="text-white-50 link" href="#">Scotland vs Australia</a></li>
+		 <li class="mt-3"><a class="text-white-50 link" href="#">Pakistan vs Bangladesh</a></li>
+		 <li class="mt-3"><a class="text-white-50 link" href="#">England vs Sri Lanka</a></li>
+		 <li class="mt-3"><a class="text-white-50 link" href="#">West Indies vs South Africa</a></li>
+		</ul>	   
+	   </div>
+	   <div class="col">
+	   <b class="text-white font_14 d-block mb-3">Quick Links</b>
+        <ul class="mb-0">
+		 <li><a class="text-white-50 link" href="#">Road to Future</a></li>
+		 <li class="mt-3"><a class="text-white-50 link" href="#">Timeout</a></li>
+		 <li class="mt-3"><a class="text-white-50 link" href="#">TimeOut Hindi</a></li>
+		 <li class="mt-3"><a class="text-white-50 link" href="#">Hindi Videos</a></li>
+		 <li class="mt-3"><a class="text-white-50 link" href="#">ICC Rankings</a></li>
+		</ul>	   
+	   </div>
+	   <div class="col">
+	   <b class="text-white font_14 d-block mb-3">Follow Cricket News</b>
+        <ul class="mb-0">
+		 <li><a class="text-white-50 link" href="#">WhatsApp</a></li>
+		 <li class="mt-3"><a class="text-white-50 link" href="#">Instagram</a></li>
+		 <li class="mt-3"><a class="text-white-50 link" href="#">Twitter</a></li>
+		 <li class="mt-3"><a class="text-white-50 link" href="#">Facebook</a></li>
+		 <li class="mt-3"><a class="text-white-50 link" href="#">Youtube</a></li>
+		</ul>	   
+	   </div>
+	   <div class="col">
+	   <b class="text-white font_14 d-block mb-3">Cricket News Apps</b>
+        <ul class="mb-0">
+		 <li><a class="text-white-50 link" href="#">Android App</a></li>
+		 <li class="mt-3"><a class="text-white-50 link" href="#">iOS App</a></li>
+		 <li class="mt-4 text-white fw-bold">Cricket Sites</li>
+		 <li class="mt-3"><a class="text-white-50 link" href="#">The Cricket Monthly</a></li>
+		 <li class="mt-3"><a class="text-white-50 link" href="#">Star Sports</a></li>
+		</ul>	   
+	   </div>
+	  </div>
+ </div>
+</section>
+
+<section id="footer_bottom" class="pt-3 pb-3 bg-dark">
+ <div class="container-xl">
+  <div class="row footer_bottom_1">
+    <div class="col-md-8">
+	  <div class="footer_bottom_1_left">
+	    <p class="mb-0 text-white-50 font_14">© 2024 Your Website Name. All Rights Reserved | Design by <a class="col_blue fw-bold" href="http://www.templateonweb.com">TemplateOnWeb</a></p>
+	  </div>
+	</div>
+	<div class="col-md-4">
+	  <div class="footer_bottom_1_right text-end">
+	   <ul class="mb-0 d-flex font_13 flex-wrap">
+	    <li><a class="text-white-50 link" href="#">Terms of Use</a></li>
+		<li class="mx-2 text-white-50 my-auto">|</li>
+		 <li><a class="text-white-50 link" href="#">Privacy Policy</a></li>
+		<li class="mx-2 text-white-50 my-auto">|</li>
+		 <li><a class="text-white-50 link" href="#">About Us</a></li>
+		<li class="mx-2 text-white-50 my-auto">|</li>
+		 <li><a class="text-white-50 link" href="#">Contact Us</a></li>
+	   </ul>
+	  </div>
+	</div>
+  </div>  
+ </div>
+</section>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/theme.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+</script>
+
+
+</body>
+
+
+
+</html>
